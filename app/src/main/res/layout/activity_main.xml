@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aggiecelina.climbup.MainActivity">
+
+
+        <ImageView
+            style="@style/TopImageViewTheme"
+            android:src="@drawable/mountaineer" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TextView
+                style="@style/TitleTextViewTheme"
+                android:text="@string/titleText" />
+
+            <TextView
+                style="@style/SubtitleTextViewTheme"
+                android:text="@string/subtitleText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:paddingTop="24dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/IconImageViewTheme"
+                    android:src = "@drawable/about"/>
+
+
+                <TextView
+                    style="@style/ContentTextViewTheme"
+                    android:text="@string/address"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="horizontal"
+                android:paddingTop="24dp">
+
+                <ImageView
+                    style="@style/IconImageViewTheme"
+                    android:src = "@drawable/office_hours"/>
+
+                <TextView
+                    style = "@style/ContentTextViewTheme"
+                    android:text="@string/openingHours"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/IconImageViewTheme"
+                    android:src = "@drawable/contact"/>
+
+                <TextView
+                    style="@style/ContentTextViewTheme"
+                    android:text="@string/contact"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDivider"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="24dp">
+
+                <TextView
+                    style="@style/AboutTextViewTheme"
+                    android:text="@string/aboutTitle"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    style="@style/AboutTextViewTheme"
+                    android:text="@string/aboutContent"/>
+            </LinearLayout>
+
+        </TableLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>
