@@ -40,16 +40,6 @@
 
     </style>
 
-    <style name="IconImageViewTheme" parent="Theme.AppCompat.Light.NoActionBar">
-
-        <item name = "android:layout_height">40dp</item>
-        <item name = "android:layout_width">40dp</item>
-        <item name = "android:layout_gravity">center</item>
-        <item name = "android:scaleType">centerCrop</item>
-        <item name = "android:paddingLeft">16dp</item>
-        <item name = "android:paddingRight">16dp</item>
-
-    </style>
 
     <style name="ContentTextViewTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
@@ -58,6 +48,9 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:textColor">@color/colorPrimaryText</item>
         <item name="android:paddingLeft">16dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+
 
     </style>
 

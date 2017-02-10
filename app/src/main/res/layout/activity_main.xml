@@ -7,9 +7,9 @@
     tools:context="aggiecelina.climbup.MainActivity">
 
 
-        <ImageView
-            style="@style/TopImageViewTheme"
-            android:src="@drawable/mountaineer" />
+    <ImageView
+        style="@style/TopImageViewTheme"
+        android:src="@drawable/mountaineer" />
 
 
     <ScrollView
@@ -29,78 +29,56 @@
 
             <TextView
                 style="@style/SubtitleTextViewTheme"
-                android:text="@string/subtitleText"/>
+                android:text="@string/subtitleText" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@mipmap/about"
                 android:paddingTop="24dp"
-                android:orientation="horizontal">
+                android:text="@string/address" />
 
-                <ImageView
-                    style="@style/IconImageViewTheme"
-                    android:src = "@drawable/about"/>
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@mipmap/office_hours"
+                android:text="@string/openingHours" />
 
-
-                <TextView
-                    style="@style/ContentTextViewTheme"
-                    android:text="@string/address"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:orientation="horizontal"
-                android:paddingTop="24dp">
-
-                <ImageView
-                    style="@style/IconImageViewTheme"
-                    android:src = "@drawable/office_hours"/>
-
-                <TextView
-                    style = "@style/ContentTextViewTheme"
-                    android:text="@string/openingHours"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    style="@style/IconImageViewTheme"
-                    android:src = "@drawable/contact"/>
-
-                <TextView
-                    style="@style/ContentTextViewTheme"
-                    android:text="@string/contact"/>
-            </LinearLayout>
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@mipmap/contact"
+                android:text="@string/contact"
+                android:paddingBottom="24dp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorDivider"/>
+                android:background="@color/colorDivider" />
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="24dp">
+            <TextView
+                android:paddingTop="24dp"
+                style="@style/AboutTextViewTheme"
+                android:text="@string/aboutTitle"
+                android:textStyle="bold" />
 
-                <TextView
-                    style="@style/AboutTextViewTheme"
-                    android:text="@string/aboutTitle"
-                    android:textStyle="bold"/>
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:text="@string/aboutSubtitle"/>
 
-                <TextView
-                    style="@style/AboutTextViewTheme"
-                    android:text="@string/aboutContent"/>
-            </LinearLayout>
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@mipmap/tick"
+                android:text="@string/tick1" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@mipmap/tick"
+                android:text="@string/tick2" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@mipmap/tick"
+                android:text="@string/tick3" />
 
         </TableLayout>
-
 
 
     </ScrollView>

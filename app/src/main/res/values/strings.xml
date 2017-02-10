@@ -6,8 +6,14 @@
     <string name="openingHours">Opening Hours: \n Mon - Fri \n 8:00 - 15:00</string>
     <string name="contact">+48 987 654 321 \n samplemail@gmail.com</string>
     <string name="aboutTitle">about</string>
-    <string name="aboutContent">limbUP is a school of \n climbing \n and \n mountaineering.
-        \n ice climbing \n rock climbing \n other courses more \n blablab \n lablah \n blablab \n lablah \n blablab
-        \n lablah \n blablab \n lablah</string>
+    <string name="aboutSubtitle">We are a new school of climbing based in Cracow. The school is fully accredited by the Sample Important Climbing Association.
+         Our instructors deliver to you our professional most up-to-date knowledge and experience, but they also take care of your enjoyment and satisfaction.
+            As far as I am concerned in this place there could be much more information about the company,however since the company does not exist at the moment
+    (who knows, maybe in the future?), therefore I am typing this very long and meaningless sentence only to make this text a way and way longer, as long as
+    some soap operas are. </string>
+    <string name="tick1">Rock climbing </string>
+    <string name="tick2">Ice climbing </string>
+    <string name="tick3">Children\'s climbing </string>
+
 </resources>
 
