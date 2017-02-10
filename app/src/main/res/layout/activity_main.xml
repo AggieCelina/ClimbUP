@@ -18,10 +18,10 @@
         android:fillViewport="true">
 
 
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:stretchColumns="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
                 style="@style/TitleTextViewTheme"
@@ -33,18 +33,18 @@
 
             <TextView
                 style="@style/ContentTextViewTheme"
-                android:drawableLeft="@mipmap/about"
+                android:drawableLeft="@drawable/about"
                 android:paddingTop="24dp"
                 android:text="@string/address" />
 
             <TextView
                 style="@style/ContentTextViewTheme"
-                android:drawableLeft="@mipmap/office_hours"
+                android:drawableLeft="@drawable/office_hours"
                 android:text="@string/openingHours" />
 
             <TextView
                 style="@style/ContentTextViewTheme"
-                android:drawableLeft="@mipmap/contact"
+                android:drawableLeft="@drawable/contact"
                 android:text="@string/contact"
                 android:paddingBottom="24dp"/>
 
@@ -61,24 +61,25 @@
 
             <TextView
                 style="@style/AboutTextViewTheme"
+                android:gravity="left"
                 android:text="@string/aboutSubtitle"/>
 
             <TextView
-                style="@style/ContentTextViewTheme"
-                android:drawableLeft="@mipmap/tick"
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
                 android:text="@string/tick1" />
 
             <TextView
-                style="@style/ContentTextViewTheme"
-                android:drawableLeft="@mipmap/tick"
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
                 android:text="@string/tick2" />
 
             <TextView
-                style="@style/ContentTextViewTheme"
-                android:drawableLeft="@mipmap/tick"
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
                 android:text="@string/tick3" />
 
-        </TableLayout>
+        </LinearLayout>
 
 
     </ScrollView>
