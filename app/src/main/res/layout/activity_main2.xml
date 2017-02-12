@@ -1,0 +1,113 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                style="@style/TopImageViewTheme"
+                android:src="@drawable/mountaineer"
+                app:layout_collapseMode="parallax"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+                android:minHeight="100dp"
+
+                />
+
+
+
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TitleTextViewTheme"
+                android:text="@string/titleText" />
+
+            <TextView
+                style="@style/SubtitleTextViewTheme"
+                android:text="@string/subtitleText" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@drawable/about"
+                android:paddingTop="24dp"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@drawable/office_hours"
+                android:text="@string/openingHours" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@drawable/contact"
+                android:text="@string/contact"
+                android:paddingBottom="24dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:paddingTop="24dp"
+                style="@style/AboutTextViewTheme"
+                android:text="@string/aboutTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:gravity="left"
+                android:text="@string/aboutSubtitle"/>
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
+                android:text="@string/tick1" />
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
+                android:text="@string/tick2" />
+
+
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
+                android:text="@string/tick3" />
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

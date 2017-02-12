@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aggiecelina.climbup.MainActivity">
+
+
+    <ImageView
+        style="@style/TopImageViewTheme"
+        android:src="@drawable/mountaineer" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TitleTextViewTheme"
+                android:text="@string/titleText" />
+
+            <TextView
+                style="@style/SubtitleTextViewTheme"
+                android:text="@string/subtitleText" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@drawable/about"
+                android:paddingTop="24dp"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@drawable/office_hours"
+                android:text="@string/openingHours" />
+
+            <TextView
+                style="@style/ContentTextViewTheme"
+                android:drawableLeft="@drawable/contact"
+                android:text="@string/contact"
+                android:paddingBottom="24dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:paddingTop="24dp"
+                style="@style/AboutTextViewTheme"
+                android:text="@string/aboutTitle"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:gravity="left"
+                android:text="@string/aboutSubtitle"/>
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
+                android:text="@string/tick1" />
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
+                android:text="@string/tick2" />
+
+            <TextView
+                style="@style/AboutTextViewTheme"
+                android:drawableLeft="@drawable/tick"
+                android:text="@string/tick3" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
