@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/aggiecelina/Dokumenty/ClimbUp2/ClimbUP-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7959d3d1023192fedb5d1fc18d3c4dd74cb024e9">
+        <dex dex="/home/aggiecelina/Dokumenty/ClimbUp2/ClimbUP-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1047c6b8fd5cb75efd64033dc6c3d2a0fe2c0adb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aggiecelina/Dokumenty/ClimbUp2/ClimbUP-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f319698c8b2f0c562fa61cc7fbd23f2b65cd7bf0">
+        <dex dex="/home/aggiecelina/Dokumenty/ClimbUp2/ClimbUP-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_09c8e232b79aa883e42d3ca0f0620c21907cf922/classes.dex" />
+    </item>
+
+</items>
